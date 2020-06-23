@@ -26,7 +26,7 @@ module.exports = function(req, res) {
             .create({
                body: 'Your code is ' + code,
                from: '+15017122661',
-               to: '+542214763536',
+               to: '+116646579',
              })
              .then(message => res.status(200).send(user));
         })
